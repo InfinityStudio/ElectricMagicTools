@@ -113,7 +113,7 @@ public class ItemShieldFocus extends ItemBaseFocus {
 				player.worldObj.setBlock(x - 2, y + 1, z - 1,
 						ElectricMagicTools.shield.blockID);
 				
-				 player.addPotionEffect(new PotionEffect(Potion.moveSlowdown.id, 100, 100, false));
+				 player.addPotionEffect(new PotionEffect(Potion.moveSlowdown.id, 100000, 100, false));
 			}
 		}
 	}
